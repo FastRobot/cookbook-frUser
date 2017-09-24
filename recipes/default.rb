@@ -10,7 +10,8 @@
 
 users_manage "fastrobot" do
   group_id 2048
-  action [ :remove, :create ]
+  action [ :create ]
+  data_bag 'users'
 end
 
 # and everybody in that group gets sudo ALL with no password, cause fuck it

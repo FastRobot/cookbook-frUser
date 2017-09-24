@@ -10,5 +10,5 @@ version          '0.2.0'
   supports os
 end
 
-depends "users"
-depends "sudo"
+depends 'users', '~> 5.1'
+depends 'sudo'
