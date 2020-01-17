@@ -8,7 +8,7 @@
 # bag is currently hosted in hosted chef at opscode
 # I expect this to be among the first recipes run on any work box
 
-users_manage "fastrobot" do
+users_manage 'fastrobot' do
   group_id 2048
   action [ :create ]
   data_bag 'users'
@@ -19,4 +19,3 @@ sudo 'fastrobot' do
   group 'fastrobot'
   nopasswd true
 end
-
