@@ -20,3 +20,7 @@ Usage
 Just include `frUser` in your node's `run_list`:
 
 consult the users cookbook for the databag format.
+
+CI
+-----
+Leveraging github actions, WIP.
