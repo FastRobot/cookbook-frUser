@@ -1,6 +1,7 @@
 ---
 driver:
   name: docker
+  use_internal_docker_network: true
   use_sudo: false
 
 provisioner:

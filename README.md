@@ -23,4 +23,4 @@ consult the users cookbook for the databag format.
 
 CI
 -----
-Leveraging github actions, WIP.
+Leveraging github actions, WIP. Maybe workflows only register once they've been merged to master. 
